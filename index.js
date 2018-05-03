@@ -30,4 +30,4 @@ function getWordCount (total, string) {
   total[(string.split(' ').length)] += 1
   return total
 }
-var wordCountMap = monologueLines.reduce(getWordCount, {})
+var wordCountMap = monologueLines.reduce(getWordCount)
