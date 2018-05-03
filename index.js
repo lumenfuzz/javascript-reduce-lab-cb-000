@@ -4,7 +4,7 @@ function getSum(total, num) {
   return total + num
 }
 
-var totalBatteries = batteryBatches.reduce()
+var totalBatteries = batteryBatches.reduce(getSum)
 
 const monologueLines = [
   'Who are you talking to right now?',
