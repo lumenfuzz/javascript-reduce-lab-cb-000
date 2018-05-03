@@ -24,6 +24,6 @@ const monologueLines = [
 ];
 
 function getWordCount (total, string) {
-  return {string.length.toString(): total}
+  return {string: total}
 }
 var wordCountMap = monologueLines.reduce(getWordCount)
