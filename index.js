@@ -24,6 +24,9 @@ const monologueLines = [
 ];
 
 function getWordCount (total, string) {
+  if (total[(string.split(' ').length)] === null) {
+    total[(string.split(' ').length)] = 0
+  }
   total[(string.split(' ').length)] += 1
   return total
 }
