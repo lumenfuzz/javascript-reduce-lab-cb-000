@@ -22,3 +22,8 @@ const monologueLines = [
   'No.',
   'I am the one who knocks!'
 ];
+
+function getWordCount (total, string) {
+  return total + string.length
+}
+var wordCountMap = monologueLines.reduce(getWordCount)
